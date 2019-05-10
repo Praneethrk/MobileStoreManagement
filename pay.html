@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <h2 align="center"><B>PAYMENT PAGE</B></h2>
+           <link rel="stylesheet" href="css/style.css">
+           <style>
+body {
+    background-image: url("img/img7.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+</style>
+
+    </head>
+   <body background="img/img7.jpg">
+       <div class="pay-page">
+        <div class="form2">
+    <form action="" method="post" name="f3">
+        <table class="text" border="0" allign="center" cellspacing="20">
+            <tbody>
+                <tr>
+                    <td><label for="id">Payment id:</label></td>
+                    <td><input id="id" maxlength="10" name="pid" type="text" placeholder="enter payment id" required/></td>
+                </tr>
+                <tr>
+                    <td><label for="cmp">Payment Date:</label></td>
+                    <td><input id="cmp" maxlength="20" name="mcmp" type="number_format" placeholder="enter payment date" required/></td>
+                </tr>
+                <tr>
+                    <td><label for="os">Payment amount:</label></td>
+                    <td><input id="os" maxlength="20" name="mos" type="text" placeholder="enter the amount" required/></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button type="submit" class="button">Pay</button>
+        <button type="reset" class="button" onclick="refresh()">Refresh</button> 
+    </form>
+        </div>
+        </div>
+    </body>
+    
+</html>
